@@ -1,0 +1,13 @@
+# Ignore SSL certificates and keys
+*.crt
+*.pem
+*.key
+*.p12
+
+# Ignore certificate signing requests
+*.csr
+
+# Ignore any files or directories related to SSL
+ssl/
+certs/
+keys/
