@@ -1,12 +1,12 @@
-
 import socket
 import time
 import ssl
 
 def get_time_from_server(client_socket):
+    print("Enter the timezone (e.g., 'America/New_York') or press Enter to exit: ")
     while True:
         # Get the desired timezone from the user
-        time_zone = input("Enter the timezone (e.g., 'America/New_York') or press Enter to exit: ")
+        time_zone = input('>> ')
 
         if not time_zone:
             break  # Exit the loop if the user doesn't provide a timezone
