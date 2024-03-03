@@ -3,6 +3,7 @@
 *.pem
 *.key
 *.p12
+*.log
 
 # Ignore certificate signing requests
 *.csr
