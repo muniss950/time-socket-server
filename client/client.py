@@ -3,7 +3,7 @@ import time
 import ssl
 
 def get_time_from_server(client_socket):
-    print("Enter the timezone (e.g., 'America/New_York') or press Enter to exit: ")
+    print("Enter the timezone (e.g., 'America/New_York'),'getServerTime' to get the server's local time or press Enter to exit: ")
     while True:
         # Get the desired timezone from the user
         time_zone = input('>> ')
